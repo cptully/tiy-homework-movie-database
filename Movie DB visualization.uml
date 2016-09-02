@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>98b12c81-025f-48bb-8ebd-9d6cc1f01632.SCHEMA:chrisimdb.public</OriginalElement>
+  <nodes>
+    <node x="202.63511187607577" y="706.5232358003442">98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.role</node>
+    <node x="1100.872503203947" y="393.6690517331746">98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.publisher</node>
+    <node x="208.30981067125649" y="303.855421686747">98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.company</node>
+    <node x="167.83476764199656" y="430.2908777969019">98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.moviecompany</node>
+    <node x="877.156626506024" y="397.6746987951807">98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.review</node>
+    <node x="996.4612736660931" y="236.15490533562823">98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.reviewpublisher</node>
+    <node x="492.43545611015486" y="685.908777969019">98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.movieperson</node>
+    <node x="719.1222030981066" y="244.382099827883">98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.moviereview</node>
+    <node x="893.8055077452667" y="674.2547332185886">98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.person</node>
+    <node x="445.92771084337346" y="241.87951807228922">98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.moviegenre</node>
+    <node x="878.1531841652326" y="536.5077452667815">98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.personreview</node>
+    <node x="584.2323580034424" y="403.8364888123924">98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.movie</node>
+    <node x="198.7951807228916" y="594.4543889845095">98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.companyrole</node>
+    <node x="164.70912220309808" y="180.29259896729778">98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.genre</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.personreview" target="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.person">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.movieperson" target="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.role">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.moviegenre" target="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.genre">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.moviecompany" target="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.movie">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.moviereview" target="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.review">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.moviecompany" target="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.companyrole">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.moviereview" target="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.movie">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.movieperson" target="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.movie">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.moviegenre" target="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.movie">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.movieperson" target="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.person">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.reviewpublisher" target="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.publisher">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.reviewpublisher" target="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.review">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.personreview" target="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.review">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.moviecompany" target="98b12c81-025f-48bb-8ebd-9d6cc1f01632.TABLE:chrisimdb.public.company">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8663829787234043" x="741.5" y="497.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
